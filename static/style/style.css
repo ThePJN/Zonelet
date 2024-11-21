@@ -6,6 +6,7 @@
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #191B22;
   }
   
   p {
@@ -48,20 +49,28 @@
     font-style: italic;
   }
   
+  a {
+  color: #8C8DFF;
+  }
+  
+  
   a:hover { 
     background-color: #c9f1fe;
   }
+  
+  
   
   /*#CONTAINER is the rectangle that has contains everything but the background!*/
   #container {
     margin: 3em auto;
     width: 90%;
     max-width: 700px;
-    color: black; 
-    outline-color: black;
+    color: white; 
+    outline-color: white;
     outline-style: solid;
     outline-width: 1px;
     outline-offset: 0;
+    background-color: #313543;
   }
   
   #content {
@@ -71,7 +80,7 @@
   
   /*HEADER STYLE*/
   #header {
-    background-color: black;
+    background-color: #191B22;
     padding: 0 5%;
   }
   #header ul {
@@ -89,7 +98,7 @@
   #header li a {
     color: white;
     text-decoration: none;
-    background-color: inherit;
+    background-color: #191B22;
   }
   #header li a:hover {
     text-decoration: underline;
